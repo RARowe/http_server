@@ -1,5 +1,5 @@
 main:
-	gcc -ansi main.c
+	gcc -ansi -lsqlite3 main.c
 
 clean:
 	rm a.out
